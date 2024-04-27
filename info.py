@@ -23,7 +23,7 @@ API_HASH = environ.get('API_HASH', '68ab1c74d05cfc38965949d30abe11b0')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 800))
+CACHE_TIME = int(environ.get('CACHE_TIME', 200))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/9fba4000e81d6a9fa7286.jpg https://telegra.ph/file/5f3e6d393e0eb327bdb2e.jpg https://telegra.ph/file/9e8f7d98cb517b76bb4ad.jpg https://telegra.ph/file/a58e4e31f1637ef99d745.jpg https://telegra.ph/file/6bf4254906b732c04682b.jpg https://telegra.ph/file/8f778fed497a2056ba0a6.jpg https://telegra.ph/file/bb6929bc1314e980c44f8.jpg https://telegra.ph/file/e6302e8e6a7432b4355e9.jpg https://telegra.ph/file/080bfeaee5cee7db49d27.jpg https://telegra.ph/file/f0355cea37ae89d32e955.jpg https://telegra.ph/file/8f778fed497a2056ba0a6.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
@@ -40,8 +40,8 @@ auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001663275201')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001663275201')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001663275201'))
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001663275201'))
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', '-1001663275201'))
@@ -87,9 +87,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Shortlink Info
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'adcorto.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '5b29fc89fe436f08c7bd0ea8725921342572ea36')
-
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'adrinolinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '8fd317db5073a33638aa9c7d9a7ebc9055e3e912')
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
