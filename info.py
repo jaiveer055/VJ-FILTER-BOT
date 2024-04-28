@@ -88,7 +88,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Shortlink Info
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'adrinolinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '8fd317db5073a33638aa9c7d9a7ebc9055e3e912')
+SHORTLINK_API = environ.get('8fd317db5073a33638aa9c7d9a7ebc9055e3e912')
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
